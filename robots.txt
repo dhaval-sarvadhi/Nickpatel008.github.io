@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nickpatel008.github.io/sitemap.xml
+

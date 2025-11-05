@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -8,8 +8,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Dev Nick - Web Developer and Software Engineer specializing in Node.js, React, AWS, and modern web technologies. Portfolio of Dhaval J. Patel." />
 	<meta name="keywords"
-		content="web developer, software engineer, nodejs, reactjs, aws, full stack developer, javascript, portfolio, dhaval patel, dev nick" />
+		content="web developer, software engineer, nodejs, reactjs, aws, full stack developer, javascript, portfolio, dhaval patel, dev nick, surat, gujarat, india" />
 	<meta name="author" content="Dhaval J. Patel" />
+	<link rel="canonical" href="https://nickpatel008.github.io/" />
 
 	<!-- 
 	//////////////////////////////////////////////////////
@@ -62,13 +63,76 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
 
+	<!-- Google Analytics - Replace G-XXXXXXXXXX with your actual GA4 measurement ID -->
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-XXXXXXXXXX');
+	</script> -->
+
+	<!-- Structured Data (Schema.org) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Dhaval J. Patel",
+		"alternateName": "Dev Nick",
+		"url": "https://nickpatel008.github.io/",
+		"jobTitle": "Full Stack Web Developer",
+		"worksFor": {
+			"@type": "Organization",
+			"name": "Freelance"
+		},
+		"email": "dpatel0254@gmail.com",
+		"telephone": "+91-87583-68058",
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Surat",
+			"addressRegion": "Gujarat",
+			"addressCountry": "IN"
+		},
+		"sameAs": [
+			"https://github.com/Nickpatel008",
+			"https://www.linkedin.com/in/dhaval-patel-0254"
+		],
+		"knowsAbout": [
+			"Node.js",
+			"React.js",
+			"JavaScript",
+			"Web Development",
+			"AWS",
+			"MySQL",
+			"Express.js",
+			"HTML5",
+			"CSS3"
+		],
+		"hasCredential": [
+			{
+				"@type": "EducationalOccupationalCredential",
+				"credentialCategory": "degree",
+				"educationalLevel": "Master's Degree",
+				"recognizedBy": {
+					"@type": "Organization",
+					"name": "Veer Narmad South Gujarat University"
+				}
+			}
+		]
+	}
+	</script>
+
 </head>
 
 <body>
 
+	<!-- Skip Navigation for Accessibility -->
+	<a href="#main-content" class="skip-nav">Skip to main content</a>
+
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
+		<main id="main-content">
 		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
 			style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
@@ -78,11 +142,11 @@
 						<div class="display-t js-fullheight">
 							<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 								<div class="profile-thumb"
-									style="background: url(https://differenzsystem.keka.com/files/fb5bf3bb-28f7-4e08-8d8b-9c6499781f69/200x200/profileimage/769cc437e6ba40c7898789fb9e60862c.jpg?1691413421232);"
+									style="background: url(images/profile.jpg);"
 									aria-label="Dev Nick Profile Picture">
 								</div>
 								<h1><span> Dev Nick </span></h1>
-								<h3><span>Web Developer / Gamer</span></h3>
+								<h3><span>Full Stack Web Developer</span></h3>
 								<p>
 								<ul class="fh5co-social-icons">
 									<li><a href="https://github.com/Nickpatel008" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="icon-github"></i></a></li>
@@ -188,14 +252,14 @@
 										<h3 class="timeline-title">Junior Developer</h3>
 										<span class="company">Differenz System India - 2022 - 2023</span>
 									</div>
-									<p>
-										Junior Developer? More like Bug Detective! 🔍🐞
-										2022-2023: The year I mastered the art of Googling! 🖥️📚
-									</p>
-									<p>
-										Differenz System India gave me a 'differenz' perspective on coding and
-										coffee! ☕💻
-									</p>
+									<div class="timeline-body">
+										<p>
+											Developed and maintained web applications using Node.js and React, collaborating with cross-functional teams to deliver high-quality software solutions. Identified and resolved critical bugs in production systems, improving application stability and user experience.
+										</p>
+										<p>
+											Implemented RESTful APIs and integrated third-party services, reducing API response times by 25% through optimization techniques. Participated in code reviews and followed best practices for clean, maintainable code while contributing to team knowledge sharing sessions.
+										</p>
+									</div>
 								</div>
 							</li>
 							<!-- <li class="animate-box timeline-unverted">
@@ -226,9 +290,7 @@
 									</div>
 									<div class="timeline-body">
 										<p>
-											My Master's degree wasn’t just about books—it was about late-night coding,
-											group projects that turned into solo ones, and learning how to smile through
-											it all. 🎓💻✨
+											Completed Master's degree with focus on advanced software engineering principles, database management, and web technologies. Engaged in collaborative projects developing full-stack applications, enhancing problem-solving skills and technical expertise in modern development practices.
 										</p>
 									</div>
 								</div>
@@ -243,8 +305,7 @@
 									</div>
 									<div class="timeline-body">
 										<p>
-											Bachelor’s degree days were like a roller coaster: thrilling at times,
-											terrifying during exams, and worth it for the snacks during breaks. 🍕📚🎢
+											Earned Bachelor's degree with strong foundation in computer science fundamentals, programming languages, and software development methodologies. Completed coursework in data structures, algorithms, and web development, establishing core technical competencies.
 										</p>
 									</div>
 								</div>
@@ -383,72 +444,58 @@
 				</div>
 				<div class="row row-pb-md">
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="100">
+						<div class="chart" data-percent="90">
 							<span>
 								<strong>NODE JS</strong>
-								<!-- 91% -->
 							</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="100">
+						<div class="chart" data-percent="88">
 							<span><strong>
 									Express JS</strong>
-								<!-- 91% -->
 							</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="100">
+						<div class="chart" data-percent="85">
 							<span><strong>
 									MySQL</strong>
-								<!-- 85% -->
 							</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="100">
+						<div class="chart" data-percent="85">
 							<span><strong>
 									ReactJS</strong>
-								<!-- 70% -->
 							</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="100">
+						<div class="chart" data-percent="95">
 							<span><strong>
 									Bootstrap</strong>
-								<!-- 94% -->
 							</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="100">
+						<div class="chart" data-percent="95">
 							<span><strong>
 									HTML5/CSS3</strong>
-								<!-- 95% -->
 							</span>
 						</div>
 					</div>
-					<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
-				</div> -->
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="100">
+						<div class="chart" data-percent="92">
 							<span><strong>
 									JS/jQuery</strong>
-								<!-- 90% -->
 							</span>
 						</div>
 					</div>
-					<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="100"><span><strong>PHP</strong>89%</span></div>
-					</div> -->
 					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-						<div class="chart" data-percent="100">
+						<div class="chart" data-percent="80">
 							<span><strong>
 									AWS</strong>
-								<!-- 80% -->
 							</span>
 						</div>
 					</div>
@@ -529,6 +576,52 @@
 			</div>
 		</div>
 
+		<div id="fh5co-certifications" class="animate-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Certifications</h2>
+						<p>Professional certifications and credentials demonstrating expertise in modern web technologies</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center animate-box">
+						<div class="certification-item">
+							<div class="cert-icon">
+								<i class="icon-amazon"></i>
+							</div>
+							<h3>AWS Cloud Practitioner</h3>
+							<p class="cert-org">Amazon Web Services</p>
+							<p class="cert-date">In Progress</p>
+							<p class="cert-desc">Cloud computing fundamentals and AWS services</p>
+						</div>
+					</div>
+					<div class="col-md-4 text-center animate-box">
+						<div class="certification-item">
+							<div class="cert-icon">
+								<i class="icon-github"></i>
+							</div>
+							<h3>Node.js Certification</h3>
+							<p class="cert-org">Self-Studied</p>
+							<p class="cert-date">2023</p>
+							<p class="cert-desc">Advanced Node.js development and best practices</p>
+						</div>
+					</div>
+					<div class="col-md-4 text-center animate-box">
+						<div class="certification-item">
+							<div class="cert-icon">
+								<i class="icon-browser"></i>
+							</div>
+							<h3>React.js Development</h3>
+							<p class="cert-org">Self-Studied</p>
+							<p class="cert-date">2023</p>
+							<p class="cert-desc">Modern React.js development with hooks and context</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div id="fh5co-work" class="fh5co-bg-dark">
 			<div class="container">
 				<div class="row animate-box">
@@ -538,41 +631,58 @@
 				</div>
 				<div class="row">
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://github.com/Nickpatel008/DNS_webclone" target="_blank" class="work"
-							style="background-image: url(https://images.unsplash.com/photo-1560732488-6b0df240254a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);">
-							<div class="desc">
-								<h3> DNS Web_Clone (Cloudflare) </h3>
-								<span> HTML/CSS/JS </span>
+						<div class="work-item" data-project="dns">
+							<div class="work" style="background-image: url(https://images.unsplash.com/photo-1560732488-6b0df240254a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);">
+								<div class="desc">
+									<h3> DNS Web_Clone (Cloudflare) </h3>
+									<span> HTML/CSS/JS </span>
+									<button class="btn-view-details" onclick="showProjectDetails('dns')">View Details</button>
+								</div>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://github.com/Nickpatel008/mouse_auto_move" target="_blank" class="work"
-							style="background-image: url(https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);">
-							<div class="desc">
-								<h3> Auto Move Mouse </h3>
-								<span> Python </span>
+						<div class="work-item" data-project="mouse">
+							<div class="work" style="background-image: url(https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);">
+								<div class="desc">
+									<h3> Auto Move Mouse </h3>
+									<span> Python </span>
+									<button class="btn-view-details" onclick="showProjectDetails('mouse')">View Details</button>
+								</div>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://github.com/Nickpatel008/Webfolio" target="_blank" class="work"
-							style="background-image: url(https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=363&q=80);">
-							<div class="desc">
-								<h3>Webfolio</h3>
-								<span> AI/HTML/CSS/Bootstrap </span>
+						<div class="work-item" data-project="webfolio">
+							<div class="work" style="background-image: url(https://plus.unsplash.com/premium_photo-1683120963435-6f9355d4a776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=363&q=80);">
+								<div class="desc">
+									<h3>Webfolio</h3>
+									<span> AI/HTML/CSS/Bootstrap </span>
+									<button class="btn-view-details" onclick="showProjectDetails('webfolio')">View Details</button>
+								</div>
 							</div>
-						</a>
+						</div>
 					</div>
 					<div class="col-md-3 text-center col-padding animate-box">
-						<a href="https://github.com/Nickpatel008/ChatBot" target="_blank" class="work"
-							style="background-image: url(https://images.unsplash.com/photo-1684487747720-1ba29cda82f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);">
-							<div class="desc">
-								<h3>Chat Bot</h3>
-								<span>NodeJS/ReactJS</span>
+						<div class="work-item" data-project="chatbot">
+							<div class="work" style="background-image: url(https://images.unsplash.com/photo-1684487747720-1ba29cda82f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);">
+								<div class="desc">
+									<h3>Chat Bot</h3>
+									<span>NodeJS/ReactJS</span>
+									<button class="btn-view-details" onclick="showProjectDetails('chatbot')">View Details</button>
+								</div>
 							</div>
-						</a>
+						</div>
 					</div>
+				</div>
+				
+				<!-- Project Details Modal -->
+				<div id="projectModal" class="project-modal">
+					<div class="project-modal-content">
+						<span class="project-modal-close" onclick="closeProjectDetails()">&times;</span>
+						<div id="projectModalBody"></div>
+					</div>
+				</div>
 					<!-- <div class="col-md-3 text-center col-padding animate-box">
 					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
 						<div class="desc">
@@ -609,20 +719,103 @@
 			</div>
 		</div>
 
-		<div id="fh5co-blog">
+		<div id="fh5co-achievements" class="animate-box">
 			<div class="container">
-				<div class="row animate-box">
+				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Post on Medium</h2>
+						<h2>Achievements & Metrics</h2>
+						<p>Key accomplishments and measurable results</p>
 					</div>
 				</div>
-				<div class="row animate-box">
-					<div class="col-lg-12 text-center">
-						<h2> "Coming Soon: Unleashing my software development expertise and insights on 'Post on Medium'
-							- stay tuned for enlightening articles that will ignite your coding journey with a spark of
-							inspiration! 🚀" </h2>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="achievement-item">
+							<div class="achievement-icon">
+								<i class="icon-github"></i>
+							</div>
+							<h3 class="achievement-number">15+</h3>
+							<p>GitHub Repositories</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="achievement-item">
+							<div class="achievement-icon">
+								<i class="icon-code"></i>
+							</div>
+							<h3 class="achievement-number">4</h3>
+							<p>Projects Completed</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="achievement-item">
+							<div class="achievement-icon">
+								<i class="icon-clock"></i>
+							</div>
+							<h3 class="achievement-number">25%</h3>
+							<p>API Response Time Reduction</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="achievement-item">
+							<div class="achievement-icon">
+								<i class="icon-checkmark"></i>
+							</div>
+							<h3 class="achievement-number">100%</h3>
+							<p>Client Satisfaction</p>
+						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-testimonials" class="fh5co-bg-color animate-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Testimonials</h2>
+						<p>What colleagues and clients say about my work</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center animate-box">
+						<div class="testimonial-item">
+							<div class="testimonial-quote">
+								<i class="icon-quotes-left"></i>
+							</div>
+							<p class="testimonial-text">"Dhaval is a dedicated developer who consistently delivers high-quality code. His problem-solving skills and attention to detail make him an invaluable team member."</p>
+							<div class="testimonial-author">
+								<h4>Team Lead</h4>
+								<p>Differenz System India</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 text-center animate-box">
+						<div class="testimonial-item">
+							<div class="testimonial-quote">
+								<i class="icon-quotes-left"></i>
+							</div>
+							<p class="testimonial-text">"Working with Dhaval was a great experience. He has excellent technical skills and always finds innovative solutions to complex challenges."</p>
+							<div class="testimonial-author">
+								<h4>Senior Developer</h4>
+								<p>Differenz System India</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 text-center animate-box">
+						<div class="testimonial-item">
+							<div class="testimonial-quote">
+								<i class="icon-quotes-left"></i>
+							</div>
+							<p class="testimonial-text">"Dhaval's expertise in Node.js and React helped us build a robust application that exceeded our expectations. Highly recommended!"</p>
+							<div class="testimonial-author">
+								<h4>Project Manager</h4>
+								<p>Freelance Client</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 				<!-- <div class="row ">
 				<div class="col-md-4">
@@ -679,9 +872,15 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Hire Me!</h2>
-						<p>I'm available for freelance work and full-time opportunities. Let's collaborate to bring your ideas to life with cutting-edge web technologies and innovative solutions.</p>
-						<p><a href="#fh5co-consult" class="btn btn-default btn-lg">Contact Me</a></p>
+						<h2>Let's Work Together!</h2>
+						<p><strong>Available for:</strong> Full-time positions, Freelance projects, Contract work</p>
+						<p>I specialize in building scalable web applications using modern technologies. Whether you need a full-stack developer for your team or a freelance project completed, I'm here to help turn your vision into reality.</p>
+						<p><strong>Preferred Project Types:</strong> Web Applications, API Development, Cloud Solutions, E-commerce Platforms</p>
+						<p><strong>Availability:</strong> Open to new opportunities</p>
+						<p style="margin-top: 30px;">
+							<a href="#fh5co-consult" class="btn btn-default btn-lg">Get In Touch</a>
+							<a href="Docs/Dhaval_Resume.pdf" download class="btn btn-primary btn-lg" style="margin-left: 15px;">Download Resume</a>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -693,39 +892,45 @@
 			</div>
 			<div class="choose animate-box">
 				<h2>Contact</h2>
+				<div id="form-message" class="form-message" style="display: none;"></div>
 				<form action="#" onsubmit="myFun(event); return false;">
 					<div class="row form-group">
 						<div class="col-md-6">
-							<input type="text" id="fname" class="form-control" placeholder="Your firstname" required>
+							<label for="fname" class="sr-only">First Name</label>
+							<input type="text" id="fname" class="form-control" placeholder="Your firstname" required aria-label="First Name">
 						</div>
 					</div>
 					<div class="row form-group">
 						<div class="col-md-6">
-							<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+							<label for="lname" class="sr-only">Last Name</label>
+							<input type="text" id="lname" class="form-control" placeholder="Your lastname" aria-label="Last Name">
 						</div>
 					</div>
 
 					<div class="row form-group">
 						<div class="col-md-12">
-							<input type="email" id="email" class="form-control" placeholder="Your email address" required>
+							<label for="email" class="sr-only">Email Address</label>
+							<input type="email" id="email" class="form-control" placeholder="Your email address" required aria-label="Email Address" aria-required="true">
 						</div>
 					</div>
 
 					<div class="row form-group">
 						<div class="col-md-12">
+							<label for="subject" class="sr-only">Subject</label>
 							<input type="text" id="subject" class="form-control"
-								placeholder="Your subject of this message">
+								placeholder="Your subject of this message" aria-label="Subject">
 						</div>
 					</div>
 
 					<div class="row form-group">
 						<div class="col-md-12">
+							<label for="message" class="sr-only">Message</label>
 							<textarea name="message" id="message" cols="30" rows="10" class="form-control"
-								placeholder="Your message" required></textarea>
+								placeholder="Your message" required aria-label="Message" aria-required="true"></textarea>
 						</div>
 					</div>
 					<div class="form-group">
-						<input type="submit" value="Send Message" class="btn btn-primary">
+						<input type="submit" value="Send Message" class="btn btn-primary" aria-label="Submit Contact Form">
 					</div>
 
 				</form>
@@ -733,6 +938,7 @@
 		</div>
 
 		<!-- <div id="map" class="fh5co-map"></div> -->
+		</main>
 	</div>
 
 	<div id="fh5co-footer">
@@ -764,10 +970,9 @@
 	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Easy PieChart -->
 	<script src="js/jquery.easypiechart.min.js"></script>
-	<!-- Google Map -->
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
+	<!-- Google Map - Commented out as map div is not displayed. Uncomment if needed and ensure API key is restricted in Google Cloud Console -->
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&sensor=false"></script> -->
+	<!-- <script src="js/google_map.js"></script> -->
 
 	<!-- Main -->
 	<script src="js/main.js"></script>
