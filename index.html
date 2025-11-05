@@ -144,11 +144,20 @@
 
 		<div id="fh5co-resume" class="fh5co-bg-color">
 			<div class="container">
-				<div id="tooltipBox" class="row animate-box" onmousemove="myFunction(event)" onclick="downloadResume()">
-					<div id="tooltip"> grab it </div>
+				<div id="tooltipBox" class="row animate-box resume-download-section" onmousemove="myFunction(event)" onclick="downloadResume()">
+					<div id="tooltip">
+						<i class="icon-download"></i> Click to download
+					</div>
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>My Resume</h2>
-						<a href="Docs/Dhaval_Resume.pdf" download> Click anywhere to download</a>
+						<div class="resume-download-wrapper">
+							<button class="btn-resume-download" type="button" onclick="downloadResume(); return false;">
+								<i class="icon-document"></i>
+								<span>Download Resume</span>
+								<i class="icon-download"></i>
+							</button>
+							<p class="resume-hint">Click anywhere in this section to download</p>
+						</div>
 					</div>
 				</div>
 				<div class="row">
